@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+p {
+	margin: 0;
+}
+
+body {
+	height: 100vh;
+	background: url(../img/3677-gradient.jpg) no-repeat;
+	font-family: 'Source Sans Pro', sans-serif;
+
+
+	.logo {
+		text-align: center;
+		background: #fff;
+	}
+	video {
+		margin-top: 20px;
+		max-width: 100%;
+	}
+	.video-container {
+
+	}
+
+	.weather {
+
+		padding: 20px;
+		background: rgba(0,0,0,0.4);
+		border: 1px solid (0,0,0,0.6);
+		color: #fff;
+		margin-top: 20px;
+		.v-align{
+			* {
+				vertical-align: middle;
+			}
+			img {
+				vertical-align: middle;
+				max-width: calc(100% - 110px);
+			}
+		}
+		.bas {
+			font-size: 25px;
+		}
+
+		big {
+			font-size: 65px;
+			margin-left: 20px;
+			
+			display: inline-block;
+		}
+		.time {
+			font-size: 35px;
+		}
+		.slim {
+			font-size: 30px;
+			font-weight: 300;
+		}
+		h2 {
+			padding:0;
+			margin: 0;
+		}
+	}
+	 .well {
+	 	margin-top: 20px;
+	 	font-family: 'Cairo', sans-serif;
+	 	font-size: 17px;
+	 	marquee {
+	 		font-size: 27px;
+	 		height: 40px;
+	 		text-align: right;
+	 		direction: rtl;
+	 	}
+	 }
+}
